@@ -2,6 +2,8 @@
 
 A cutting-edge, production-ready affiliate marketing platform built with Next.js 14, TypeScript, TailwindCSS, and MongoDB. Features a comprehensive admin dashboard for seamless product and category management.
 
+🔗 **Live Production Site**: Deployed on Vercel with MongoDB Atlas integration.
+
 ![AffiliateHub Preview](https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=1200&h=400&fit=crop)
 
 ## ✨ Features

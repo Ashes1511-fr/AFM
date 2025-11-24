@@ -1,12 +1,15 @@
 {
-  "name": "affiliate-marketing-website",
+  "name": "luminexco-platform",
   "version": "1.0.0",
+  "description": "LuminexCo - Premium Affiliate Marketing Platform",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "seed": "node scripts/seed.js",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.2",

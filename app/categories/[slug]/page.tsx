@@ -115,12 +115,12 @@ export async function generateMetadata({ params }: CategoryPageProps) {
   
   if (!category) {
     return {
-      title: 'Category Not Found - AffiliateHub',
+      title: 'Category Not Found - LuminexCo',
     };
   }
 
   return {
-    title: `${category.name} Products - AffiliateHub`,
+    title: `${category.name} Products - LuminexCo`,
     description: `Discover the best ${category.name.toLowerCase()} products with amazing deals and discounts.`,
     keywords: `${category.name}, deals, products, affiliate, shopping`,
   };

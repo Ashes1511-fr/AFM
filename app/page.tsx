@@ -65,11 +65,11 @@ export default function HomePage() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Discover Amazing Deals
+              Welcome to <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">LuminexCo</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-              Find the best products from top brands with exclusive discounts and deals. 
-              Your trusted source for quality products at unbeatable prices.
+              Experience premium quality products with exclusive deals and exceptional value. 
+              Your trusted partner for superior affiliate offerings and luxury experiences.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild>
@@ -152,7 +152,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose AffiliateHub?
+              Why Choose LuminexCo?
             </h2>
           </div>
           

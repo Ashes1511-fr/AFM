@@ -3,8 +3,8 @@ import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'About Us - AffiliateHub',
-  description: 'Learn more about AffiliateHub and our mission to bring you the best deals and products online.',
+  title: 'About Us - LuminexCo',
+  description: 'Learn more about LuminexCo and our mission to deliver premium products and exceptional affiliate experiences.',
 };
 
 export default function AboutPage() {
@@ -13,7 +13,7 @@ export default function AboutPage() {
       {/* Hero Section */}
       <div className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-          About AffiliateHub
+          About LuminexCo
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           We're passionate about helping you discover amazing products and deals from trusted brands and retailers.
@@ -30,7 +30,7 @@ export default function AboutPage() {
           </CardHeader>
           <CardContent>
             <p className="text-gray-700 text-lg leading-relaxed text-center">
-              At AffiliateHub, our mission is to make online shopping easier and more rewarding. 
+              At LuminexCo, our mission is to deliver premium affiliate experiences and exceptional value. 
               We curate the best products from trusted brands and retailers, ensuring you get 
               the best deals without the hassle of endless searching.
             </p>
@@ -92,7 +92,7 @@ export default function AboutPage() {
       {/* Why Choose Us */}
       <section className="mb-16">
         <h2 className="text-3xl font-bold text-gray-900 text-center mb-8">
-          Why Choose AffiliateHub?
+          Why Choose LuminexCo?
         </h2>
         
         <div className="space-y-6">
@@ -154,7 +154,7 @@ export default function AboutPage() {
           <CardContent>
             <div className="text-blue-800 space-y-4">
               <p>
-                <strong>Affiliate Disclosure:</strong> AffiliateHub is supported by affiliate partnerships. 
+                <strong>Affiliate Disclosure:</strong> LuminexCo is supported by premium affiliate partnerships. 
                 When you purchase products through our links, we may earn a commission at no extra cost to you.
               </p>
               <p>
@@ -177,7 +177,7 @@ export default function AboutPage() {
           Ready to Start Shopping?
         </h2>
         <p className="text-xl text-gray-600 mb-8">
-          Join thousands of happy customers who trust AffiliateHub for their online shopping needs.
+          Join thousands of satisfied customers who trust LuminexCo for premium affiliate experiences.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button size="lg" asChild>

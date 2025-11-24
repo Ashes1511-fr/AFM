@@ -7,12 +7,12 @@ import Footer from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'AffiliateHub - Best Deals & Products Online',
-  description: 'Discover amazing products and deals from top brands. Your trusted source for affiliate marketing and product recommendations.',
-  keywords: 'affiliate marketing, deals, products, shopping, discounts',
-  authors: [{ name: 'AffiliateHub Team' }],
-  creator: 'AffiliateHub',
-  publisher: 'AffiliateHub',
+  title: 'LuminexCo - Premium Affiliate Platform',
+  description: 'Discover premium products with exclusive deals and exceptional value. Your trusted partner for superior affiliate offerings.',
+  keywords: 'premium affiliate, exclusive deals, quality products, luxury shopping, best offers',
+  authors: [{ name: 'LuminexCo Team' }],
+  creator: 'LuminexCo',
+  publisher: 'LuminexCo',
   formatDetection: {
     email: false,
     address: false,

@@ -1,6 +1,6 @@
-# 🛍️ AffiliateHub - Complete Affiliate Marketing Website
+# 🚀 LuminexCo - Premium Affiliate Marketing Platform
 
-A modern, production-ready affiliate marketing website built with Next.js 14, TypeScript, TailwindCSS, and MongoDB. Features a complete admin panel for managing products and categories.
+A cutting-edge, production-ready affiliate marketing platform built with Next.js 14, TypeScript, TailwindCSS, and MongoDB. Features a comprehensive admin dashboard for seamless product and category management.
 
 ![AffiliateHub Preview](https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=1200&h=400&fit=crop)
 

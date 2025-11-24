@@ -42,7 +42,7 @@ export default function AdminProductsPage() {
         const data = await response.json();
         setProducts(data.products);
         // Extract unique categories
-        const uniqueCategories = Array.from(new Set(data.products.map((p: Product) => p.category)));
+        const uniqueCategories = Array.from(new Set(data.products.map((p: Product) => p.category).filter(Boolean))) as string[];
         setCategories(uniqueCategories);
       } else {
         console.error('Failed to fetch products');

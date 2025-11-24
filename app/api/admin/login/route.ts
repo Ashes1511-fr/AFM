@@ -74,10 +74,10 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const token = generateToken({
+    const token = await generateEdgeToken({
       userId: admin._id.toString(),
       email: admin.email,
-    });
+    }, process.env.JWT_SECRET!);
 
     const response = NextResponse.json(
       { message: 'Login successful' },
